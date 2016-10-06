@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Answer, Question} from './quiz.model';
 import { QuizService } from './quiz.service';
+
 @Component({
   selector: 'app-quiz',
   templateUrl: './quiz.component.html',
